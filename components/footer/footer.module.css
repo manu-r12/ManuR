@@ -1,0 +1,17 @@
+.footer{
+    background-color: #d5cdc4;
+    color: black;
+}
+
+.footerDetails{
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p{
+    width: 100%;
+}

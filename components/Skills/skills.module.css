@@ -1,0 +1,113 @@
+.mainHeading{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 45px; color: #d5cdc4;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 13px;
+}
+
+.container{
+    /* padding: 40px; */
+    /* height: 100vh; */
+    margin-top: 390px;
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: pink;
+}
+.line{
+    border-top: 4px solid #d5cdc4;
+    width: 380px;
+    margin-right: 20px;
+  
+  }
+
+.skillsSection{
+    font-family:"Lato", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 18px;
+     color: #d5cdc4;
+    
+  }
+.skillHeading{
+    font-weight: 600;
+}
+.skill{
+    border-top: 1px solid gray;
+    
+    border-bottom: 1px solid gray;
+    /* height: 280px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    padding: 20px 25px;
+    transition: background-color .5s;
+    cursor: pointer;
+ 
+}
+.skill:hover{
+    background-color: #191919;
+}
+
+.skillName{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: rgb(149, 148, 148);
+    justify-content: right;
+   
+}
+
+
+
+.skillP{
+    /* background-color: #d5cdc4; */
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all .8s;
+    
+}
+/* 
+.skill:hover .skillP{
+    background-color: #ffffff;
+    color: #191919;
+} */
+
+
+.p{
+    color: rgb(149, 148, 148);
+    font-size: 17px;
+    text-align: right;
+
+}
+
+@media (max-width: 640px) {
+    
+    .container{
+        margin-top: 300px;
+    }
+
+    .skillName{
+        gap: 1px;
+        font-size: 12px;
+         justify-content: left;
+
+    }
+
+    .skillsSection{
+        font-size: 14px;
+    }
+    .p{
+        font-size: 12px;
+    text-align: left;
+
+    }
+    
+}

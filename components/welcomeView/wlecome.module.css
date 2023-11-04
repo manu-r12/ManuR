@@ -1,0 +1,375 @@
+.container{
+    width: 100%;
+    color: white;
+    height: auto;
+    position: relative;
+    
+
+
+}
+
+.welcomeTextForMob{
+  display: none;
+}
+
+
+.subContainer{
+
+   width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+}
+/* background: linear-gradient(90deg,#00084d 0,#1d63ed 100%); */
+.contents{
+    text-align: center;
+    max-width:  70%;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #195ade
+#03125d */
+
+
+
+.progammerP{
+  font-weight: 500 ;
+  font-style: italic;
+}
+
+.floatingImages1{
+  position: absolute;
+  border-radius: 30px;
+  top: -3%;
+  left: 10%;
+  z-index: -1;
+  width: 250px;
+  height: 160px;
+  background-position: center;
+  overflow: hidden;
+
+}
+.arrow{
+  position: absolute;
+  right: 30%;
+  top: 19%;
+}
+.floatingText{
+  position: absolute;
+  font-family: "Figtree", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  top:  17%;
+  right: 35%;
+}
+.plane{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.floatingImages{
+  position: absolute;
+  border-radius: 30px;
+  bottom:  28%;
+  left: 10%;
+  z-index: -1;
+  width: 250px;
+  height: 160px;
+  background-position: center;
+  overflow: hidden;
+}
+.floatingImages2{
+  position: absolute;
+  border-radius: 30px;
+  top: 1%;
+  right: 10%;
+  z-index: -1;
+  width: 250px;
+  height: 160px;
+  background-position: center;
+  overflow: hidden;
+}
+.textsForWelcome{
+  font-family: "Playfair Display",sans-serif;
+  font-weight: 500;
+  color: #d5cdc4;
+  letter-spacing: -1.25px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+
+}
+
+.aboutMeP{
+  font-size: 15px;
+  font-family: "Montserrat",sans-serif;
+  letter-spacing: 1px;
+  width: 40%;
+}
+
+.basedInDiv{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+}
+
+
+
+
+.line{
+  border-top: 4px solid #d5cdc4;
+  width: 200px;
+  margin-right: 20px;
+
+}
+
+.indiaText{
+  margin-left: 340px;
+}
+
+
+.icon1{
+
+    animation: rotate 51s linear infinite; 
+  
+}
+
+.icon1div{
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+    animation: updown 12s ease-in-out infinite;
+}
+.icon2{
+
+    animation: rotate 51s linear infinite; 
+  
+}
+
+.icon2div{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    animation: updown 12s ease-in-out infinite;;
+}
+
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+   @keyframes updown {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-50px); /* Adjust the distance for the desired up and down motion */
+      }
+    }
+
+    @keyframes updown1 {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-50px); /* Adjust the distance for the desired up and down motion */
+        }
+      }
+
+      .downArrow{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 17px;
+      font-weight: 500;
+      margin-top: 100px;
+      }
+
+      .downArrowIcon{
+     
+    animation: updownArrow 2s ease-in-out infinite;;
+    margin-top: 20px;
+
+      }
+
+
+
+    @keyframes updownArrow {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px); /* Adjust the distance for the desired up and down motion */
+      }
+    }
+
+
+   /*-------------> for testing  */
+
+    /* .bigLetter1{
+      font-family: "Montserrat",sans-serif;
+      font-weight: 600;
+      font-size: 126px;
+      position: absolute;
+      color:#28204c;
+      z-index: -3;
+      opacity: 0.5;
+      width: 100%;
+    }
+
+  
+.l2{
+  left: 10%;
+  animation: moveRight 19s linear infinite;
+
+
+}
+.l1{
+  left: 80%;
+  animation: moveRight 19s linear infinite;
+
+}
+.l3{
+  left: 65%;
+  bottom: 30%;
+  animation: moveRight 19s linear infinite;
+
+
+}
+.l4{
+  left: 30%;
+  bottom: 55%;
+  animation: moveRight 19s linear infinite;
+
+
+}
+.l5{
+  left: 5%;
+  bottom: 80%;
+  animation: moveRight 19s linear infinite;
+
+
+}
+
+@keyframes moveRight {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%; /* Make the endpoint further outside */
+  
+
+    .greetigns{
+      height: 6rem;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+
+   
+
+
+
+
+
+
+    .GreetingText{
+      font-family: "Poppins", sans-serif;
+      color: #b3a3f2;
+      font-size: 67px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      
+    }
+     
+
+
+
+  /* Media Query for Mobile - 640px */
+  @media screen and (max-width: 767px)  {
+    .textsForWelcome{
+      font-family: "Playfair Display",sans-serif;
+      font-weight: 500;
+      color: #d5cdc4;
+      letter-spacing: -1.25px;
+      font-size: 26px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+     
+    
+    }
+
+    .aboutMeP{
+      display: none;
+    }
+    
+    .basedInDiv{
+      
+    }
+
+    .indiaText{
+      margin-left: 0;
+      /* color: black; */
+
+    }
+
+    .line{
+      display: none;
+    }
+
+    .floatingImages1{
+      display: none;
+   
+    }
+
+    .welcomeText{
+      display: none;
+    }
+
+    .welcomeTextForMob{
+      display:unset;
+    }
+     .floatingImages{
+      bottom: 16%;
+      left: 40%;
+      display: none;
+     }
+
+     .subContainer{
+      margin-top: 40px;
+     }
+     .downArrow{
+      display: none;
+     }
+   }
