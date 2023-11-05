@@ -10,3 +10,50 @@
 /* .main{
     height: 100%;
 } */
+
+
+.projectsContainer{
+    padding: 20px;
+}
+
+.projectsContainer > h1{
+    font-family: "Lato";
+    font-size: 45px;
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.projectsContainer > p{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.ProjectDetails{
+    display: flex;
+    gap: 40px;flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.ProjectDetails > h1{
+    font-family: "Montserrat";
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}
+
+

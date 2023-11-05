@@ -121,6 +121,12 @@
     .mainHeading{
         font-size: 70px;
     }
+    .container{
+        margin-top: 50px;
+        border-top-right-radius: 0;
+
+        border-top-left-radius: 0;
+    }
     .pingBtn{
         height: 80px;
         width: 80px;

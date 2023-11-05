@@ -17,19 +17,26 @@ const Navbar = () => {
       componentB.scrollIntoView({ behavior: 'smooth' });
   
   };
+  const Scrolltoabout = (id) => {
+    const componentB = document.getElementById('about');
+
+ 
+      componentB.scrollIntoView({ behavior: 'smooth' });
+  
+  };
 
 
   return (
     <div className={styles.container}>
         <nav className={styles.navContainer}>
-            <div style={{fontFamily:"Playfair Display",  fontWeight: "600", fontSize:"35px"}} className={styles.logoDiv}>
+            <div style={{fontFamily:"Poppins",  fontWeight: "600", fontSize:"25px"}} className={styles.logoDiv}>
               Manu♡R
             </div>
             <motion.div
                initial={{opacity: 0 , x: -50}}
                animate={{opacity: 1, x: 0}}
                transition={{ duration: 1, ease: "easeOut", delay: 1.1 }}   className={styles.links}>
-                <Link className={styles.link} href={"#"}>About Me</Link>
+                <p onClick={Scrolltoabout} style={{cursor: "pointer"}} className={styles.link} >About Me</p>
                 <Link  className={styles.link}  href={"/projects"}>Projects</Link>
                 <p style={{cursor: "pointer"}} onClick={scrollToComponentB} className={styles.link}  href={"#"}>Contact Me</p>
             </motion.div>

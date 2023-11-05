@@ -26,8 +26,8 @@ const SkillsSection = () => {
                transition={{ duration: 0.7, ease: "easeOut", delay: 0.3}} className={styles.skill}>
               <h1 className={styles.skillHeading}>Full-Stack Development</h1>
               <div className={styles.skillName}>
-                {web.map(s =>{
-                  return <p className={styles.skillP}>{s}</p>
+                {web.map((s, i) =>{
+                  return <p key={i} className={styles.skillP}>{s}</p>
                 })}
               </div>
           </motion.div>
@@ -37,8 +37,8 @@ const SkillsSection = () => {
                transition={{ duration: 0.7, ease: "easeOut", delay: 0.5}} className={styles.skill}>
               <h1 className={styles.skillHeading}>iOS Development</h1>
               <div className={styles.skillName}>
-                {ios.map(s =>{
-                  return <p className={styles.skillP}>{s}</p>
+                {ios.map((s, i) =>{
+                  return <p key={i} className={styles.skillP}>{s}</p>
                 })}
               </div>
           </motion.div>
